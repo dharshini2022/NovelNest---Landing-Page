@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Landing Page</title>
+    <link rel="stylesheet" href="landing.css" />
+  </head>
+  <body>
+    <header>
+
+      <div class="container_head">
+        <div style="display: flex;">
+          <img src="logo.jpg" alt="logo" class="img">
+        </div>
+        <div style="display: inline-block;">
+          <h1>Welcome to NovelNest</h1>
+          <h3>Uncover Your Next Literary Obsession</h3>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#genre">Genres</a></li>
+          <li><a href="#review">What Our Customers Say</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Welcome to our online book selling portal, where literary enthusiasts and bookworms alike come together to discover, indulge, and immerse themselves in the captivating world of literature. </p>
+      <p>At NovelNest, we believe that books are more than just ink on paper; they are portals to different worlds, windows into the human experience, and companions on life's journey. Whether you're an avid reader searching for your next literary adventure, a student in pursuit of academic excellence, or a gift-giver seeking the perfect present, our diverse collection of books caters to every taste, interest, and age group.</p>
+      <p>From timeless classics that have shaped the course of history to contemporary bestsellers that capture the pulse of modern society, our curated selection spans across genres, including fiction, non-fiction, mystery, romance, science fiction, self-help, and more. We take pride in offering a platform where readers can explore new authors, rediscover old favorites, and broaden their literary horizons.</p>
+      <p>But we're not just about selling books; we're about fostering a community of bibliophiles who share a passion for storytelling, knowledge, and imagination. Through our blog, social media channels, and interactive events, we aim to create a vibrant space where book lovers can connect, engage in meaningful discussions, and celebrate the written word.</p>
+      <p>Whether you prefer the tactile experience of flipping through the pages of a paperback or the convenience of carrying an entire library in your pocket with e-books, we've got you covered. With secure payment options, fast delivery, and exceptional customer service, we strive to make your shopping experience seamless and enjoyable.</p>
+      <p>Thank you for choosing NovelNest as your literary destination. Join us on this literary journey, and let's embark on an adventure filled with endless stories waiting to be discovered. Happy reading!</p>
+    </section>
+
+    <section id="genre">
+      <h2>Book Genres</h2>
+
+      <div class="container">
+        <div class="polaroid">
+          <img src="fiction.jpg" alt="fiction" style="height: 250px; width: 350px">
+          <div class="Text">
+              <p style="font-size: 20px;">Fiction</p>
+          </div>
+        </div>
+        <div class="polaroid">
+          <img src="mystery.jpg" alt="mystery" style="height: 250px; width: 350px">
+          <div class="Text">
+              <p style="font-size: 20px;">Mystery</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="polaroid">
+          <img src="romance.jpg" alt="romance" style="height: 250px; width: 350px">
+          <div class="Text">
+              <p style="font-size: 20px;">Romance</p>
+          </div>
+        </div>
+        <div class="polaroid">
+          <img src="sci-fi.jpg" alt="Sci-Fi" style="height: 250px; width: 350px">
+          <div class="Text">
+              <p style="font-size: 20px;">Sci-Fi</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="polaroid">
+          <img src="fantasy.jpg" alt="fantasy" style="height: 250px; width: 350px">
+          <div class="Text">
+              <p style="font-size: 20px;">Fantasy</p>
+          </div>
+        </div>
+        <div class="polaroid">
+          <img src="ya.jpg" alt="YA" style="height: 250px; width: 350px">
+          <div class="Text">
+              <p style="font-size: 20px;">Young Adult</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="review">
+      <h2>What Our Customers Say</h2>
+
+      <div class="container_body">
+        <div>
+          <img src="girl.jpg" alt="Natasha" class="img2">
+        </div>
+        <div style="display: inline-block;">
+          <p>What a delightful shopping experience! NovelNest exceeded my expectations in every way. Not only did they offer a diverse range of books catering to all interests and ages, but their website was also user-friendly and aesthetically pleasing. I particularly appreciated their recommendations feature, which helped me discover new titles I might have otherwise overlooked. With fast shipping and excellent communication throughout the process, I felt like a valued customer from start to finish. Highly recommend!</p>
+          <h3>NATASHA ROMMANOFF</h3>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="container_body">
+        <div>
+          <img src="boy.jpg" alt="Theodore Jackson" class="img2">
+        </div>
+        <div style="display: inline-block;">
+          <p>I've been a loyal customer of NovelNest or good reason. Their vast selection, competitive prices, and impeccable service keep me coming back time and time again. Whether I'm shopping for myself or searching for the perfect gift, I know I can trust them to deliver. Plus, their loyalty program rewards me for every purchase, making it even more enticing to shop with them. If you're in need of a reliable online book retailer, look no further!</p>
+          <h3>NATASHA ROMMANOFF</h3>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+
+    <script src="landing.js"></script>
+  </body>
+</html>
